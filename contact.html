@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a class="link-title" href="/">Minimalistic Website</a>
+        </header>
+
+        <nav class="menu">
+             <a href="/">Home</a> &nbsp; &nbsp; &nbsp;
+             <a href="about.html">About us</a> &nbsp; &nbsp; &nbsp;
+             <a href="contact.html">Contact</a> &nbsp; &nbsp; &nbsp;
+        </nav>
+
+        <aside>
+            <h1>Side Bar</h1>
+        </aside>
+
+        <article class="main">
+            <h1 class="page-heading">Contact</h1>
+            <div id="form">
+                 <form action="process.php"><!--form-->
+                    <p>
+                    <label for="name">Name:</label><!--label-->
+                    <input type="text" name="name"  placeholder="Your Name"> <!--input-->
+                    </p>
+                    
+                    <p>
+                    <label for="name">Email:</label>
+                    <input type="text" name="email">
+                    </p>
+
+                    <p>
+                    <label for="name">Subject:</label>
+                    <input type="text" name="subject">
+                    </p>
+
+                    <p>
+                    <label for="message"></label>
+                    <!--textarea-->     
+                    <textarea id="message" name="message" id="" cols="30" rows="10">
+
+                    </textarea>
+                    </p>
+                     
+                    <p>
+                         <input id="submit" type="submit" name="submit" value="Send Message">
+                    </p>
+                </form>
+
+
+            </div>
+        </article>
+
+        <footer>
+            &copy; 2030 Minimal Website &nbsp;<!--span.separator--><span class="separator">|</span> Designed by <a href="http://www.diptidalinidas.com">Diptidalini Das</a>
+        </footer>
+
+    </div>
+    
+</body>
+</html>
